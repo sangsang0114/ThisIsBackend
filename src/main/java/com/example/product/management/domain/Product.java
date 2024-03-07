@@ -52,7 +52,7 @@ public class Product {
     }
 
     public Boolean sameId(Long id) {
-        return this.equals(id);
+        return this.id.equals(id);
     }
 
     public Boolean containsName(String name) {

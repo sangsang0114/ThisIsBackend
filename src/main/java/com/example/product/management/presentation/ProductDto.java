@@ -14,6 +14,15 @@ public class ProductDto {
     @NotNull
     private Integer amount;
 
+    public ProductDto() {
+    }
+
+    public ProductDto(String name, int price, int amount) {
+        this.name = name;
+        this.price = price;
+        this.amount = amount;
+    }
+
     public void setId(Long id) {
         this.id = id;
     }
